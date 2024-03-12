@@ -1,0 +1,137 @@
+body{
+background-color:azure;
+
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+    height: 20vh;
+    background:
+    linear-gradient(
+        to right,
+        azure,
+        #87949D
+           );
+}
+
+.header img {
+    width: 8vw;
+    height: 20vh;
+    float: left;
+    margin-left: 5vw;
+
+}
+
+.header ul{
+margin: 10vh 5vw;
+float: right;
+}
+
+.header li{
+display: inline;
+}
+
+.header li ,a{
+    text-decoration: none;
+    color: #242426;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+}
+.header a:hover{
+    color: rgb(72, 72, 150);
+}
+.header :hover :active{
+    color: rgb(104, 104, 172);
+}
+
+.home{
+    margin:10vh 0vw;
+    padding: 10vh;
+    height: 55vh;
+    background-image: url(images/WhatsApp\ Image\ 2024-03-10\ at\ 21.16.24_b7bfcfbd.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position-y:4%;
+    text-align: center;
+    overflow-y:auto;
+}
+.home p{
+    text-align: left;
+    margin-left: 40vw;
+    width: 40vw;
+    font-size: larger;
+    margin-top: 10vh;
+}
+
+
+.feature{
+    margin:10vh 0vw;
+    padding: 10vh;
+
+}
+.feature ul,li{
+    margin: 3vh;
+    list-style-type:disc;
+    font-size: larger;
+    text-align:left;
+    }
+
+.Contact{
+    margin:10vh 0vw;
+    padding: 10vh;
+    overflow: hidden;
+    background:
+    linear-gradient(
+        to right,
+        azure,
+        #87949D
+           );
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width:100%;
+    margin-bottom: 2vh;
+    padding: 2vh ;
+    color: #242426;
+    font-size: large;
+}
+form button{
+    background:
+    linear-gradient(
+        to right,
+        azure,
+        #87949D
+           );
+    width:30%;
+    float: right;
+
+}
+
+h1{
+    color: #242426;
+    font-size:30pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    background:
+    linear-gradient(
+        to right,
+        azure,
+        #87949D
+           );
+    padding: 2vh 5vw;
+}
+.footer ul{
+    float: right;
+}
+.footer li,a{
+    text-decoration: none;
+    font-size: large;
+    display: inline;
+}
+.footer a:hover{
+    color: rgb(72, 72, 150);
+}
