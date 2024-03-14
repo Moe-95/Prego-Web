@@ -31,7 +31,7 @@ font-size: larger;
 .header a:hover{
     color: rgb(72, 72, 150);
 }
-.header:hover :active{
+.header :hover :active{
     color: rgb(104, 104, 172);
 }
 
@@ -119,6 +119,8 @@ form button {
     color: #242426;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.footer a:hover{
+.footer .list-group-item:hover{
     color: rgb(72, 72, 150);
+    background-color: transparent;
+
 }
